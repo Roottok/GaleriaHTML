@@ -4,41 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería de Arte - Galería de Fotos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0svlQCPzmykT89GxEijveGGAjL9TUvIfkKjXqVrbON7EKWB7EAXqi+1IDAQzWfEM" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="galeria.html">Galería de Fotos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
+<header class="container-fluid bg-dark text-white py-3">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>GALERIA DE ARTE</h1>
+        </div>
+        <div class="col-md-6 text-right">
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link active">Galería de Fotos</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
 </header>
 
-<!-- Galería de fotos -->
-<section id="galeria">
-    <div class="container">
-        <h2>Galería de Fotos</h2>
-        <div class="gallery">
+<section id="galeria" class="container mt-5">
+    <h2>Galería de Fotos</h2>
+    <div class="row">
+        <div class="col-md-3 col-sm-6 mb-3">
             <div class="photo-container">
-                <img src="imagenes/pintura1.png" alt="Imagen 1">
+                <img src="imagenes/pintura1.jpeg" alt="Imagen 1">
             </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
             <div class="photo-container">
-                <img src="imagenes/pintura2.png" alt="Imagen 2">
+                <img src="imagenes/pintura2.jpeg" alt="Imagen 2">
             </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
             <div class="photo-container">
-                <img src="imagenes/pintura3.png" alt="Imagen 3">
+                <img src="imagenes/pintura3.jpeg" alt="Imagen 3">
             </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
             <div class="photo-container">
-                <img src="imagenes/pintura4.png" alt="Imagen 4">
+                <img src="imagenes/pintura4.jpeg" alt="Imagen 4">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura5.jpeg" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura6.jpeg" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura7.jpeg" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura8.jpeg" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura9.jpeg" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura10.jpeg" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura11.jpeg" alt="Imagen 1">
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-3">
+            <div class="photo-container">
+                <img src="imagenes/pintura12.jpeg" alt="Imagen 1">
             </div>
         </div>
     </div>
 </section>
 
-<footer class="galeria">
-    Galería de arte 2024 evaluación ciisa
+<footer class="container-fluid bg-dark text-white py-3 mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            Galería de arte 2024 evaluación ciisa
+        </div>
+    </div>
 </footer>
 
 </body>

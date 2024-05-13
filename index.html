@@ -5,30 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería de Arte - Inicio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0svlQCPzmykT89GxEijveGGAjL9TUvIfkKjXqVrbON7EKWB7EAXqi+1IDAQzWfEM" crossorigin="anonymous">
 </head>
 <body id="inicio">
 
-<header>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="galeria.html">Galería de Fotos</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-    </ul>
+<header class="container-fluid bg-dark text-white py-3">
+    <div class="row">
+        <div class="col-md-6">
+            <h1>GALERIA DE ARTE</h1>
+        </div>
+        <div class="col-md-6 text-right">
+            <ul class="nav">
+                <li class="nav-item"><a href="index.html" class="nav-link active">Inicio</a></li>
+                <li class="nav-item"><a href="galeria.html" class="nav-link">Galería de Fotos</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </div>
 </header>
 
-<!-- Página de inicio -->
-<section id="inicio">
-    <div class="container">
-        <h1>GALERIA DE ARTE</h1>
-        <h3>Acerca de nosotros</h3>
-        <p><i>Nuestra galería es un lugar que da vida al alma del arte, donde las pinturas cuentan historias con cada trazo y color. Cada obra de arte que se muestra aquí brinda experiencias desde diferentes perspectivas, sentimientos y pensamientos. El arte es el lenguaje que conecta a las personas y el arte es un medio poderoso que ayuda a crear buenas relaciones entre las personas basadas en el entendimiento mutuo. Nuestros artistas son ampliamente conocidos y respetados, representan diferentes partes del mundo y utilizan una gran variedad de formas y estilos para comunicar su visión original de la realidad. Desde óleos increíblemente coloridos hasta fascinantes esculturas abstractas, cada pieza de nuestra galería sirve como testimonio artístico del increíble nivel de habilidad y pasión que desprenden nuestros artistas. </i></p>
-        <a href="galeria.html" class="btn"><b>Ver Galería</b></a>
+<section id="inicio" class="container mt-5">
+    <div class="row">
+        <div class="col-md-6">
+            <h3>Acerca de nosotros</h3>
+            <p><i>Nuestra galería es un lugar que da vida al alma del arte, donde las pinturas cuentan historias con cada trazo y color. Cada obra de arte que se muestra aquí brinda experiencias desde diferentes perspectivas, sentimientos y pensamientos. El arte es el lenguaje que conecta a las personas y el arte es un medio poderoso que ayuda a crear buenas relaciones entre las personas basadas en el entendimiento mutuo. Nuestros artistas son ampliamente conocidos y respetados, representan diferentes partes del mundo y utilizan una gran variedad de formas y estilos para comunicar su visión original de la realidad. Desde óleos increíblemente coloridos hasta fascinantes esculturas abstractas, cada pieza de nuestra galería sirve como testimonio artístico del increíble nivel de habilidad y pasión que desprenden nuestros artistas.</i></p>
+            <a href="galeria.html" class="btn btn-primary btn-lg"><b>Ver Galería</b></a>
+        </div>
+        <div class="col-md-6">
+            <img src="imagenes/principal.png" alt="Imagen Principal" class="img-fluid rounded">
+        </div>
     </div>
-    <img src="imagenes/principal.png" alt="Imagen Principal">
 </section>
 
-<footer>
-    Galería de arte 2024 evaluación ciisa
+<footer class="container-fluid bg-dark text-white py-3 mt-5">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            Galería de arte 2024 evaluación ciisa
+        </div>
+    </div>
 </footer>
 
 </body>

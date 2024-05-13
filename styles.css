@@ -4,8 +4,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('imagenes/BG.png');
-    background-size: cover;
+    background-image: url('imagenes/BG.JPEG');
+    background-size: auto;
     color: white;
 }
 
@@ -76,8 +76,8 @@ h1, h2 {
 }
 
 .btn {
-    background-color: #7cff7c;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -99,7 +99,7 @@ h1, h2 {
 }
 
 .photo-container {
-    width: calc(25% - 10px);
+    width: 50%;
     margin-bottom: 20px;
     position: relative;
     overflow: hidden;
@@ -112,7 +112,7 @@ h1, h2 {
 }
 
 .photo-container:hover img {
-    transform: scale(1.1);
+    transform: scale(1.5);
 }
 
 
@@ -164,6 +164,13 @@ img {
 
 .btn {
     display: inline-block;
+}
+/* styles.css */
+
+.nav-link.active {
+    font-weight: bold;
+    color: BLACK;
+    background-color: #eee;
 }
 
 footer {
