@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('imagenes/BG.JPEG');
+    background-image: url('BG.JPEG');
     background-size: auto;
     color: white;
 }
