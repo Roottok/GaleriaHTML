@@ -8,3 +8,5 @@ Se modifica Styles.css
 Se añaden nuevas imagenes a la galeria
 Se añade contraste en colores del sitio
 Se cambia fondo del sitio web
+06/01/2024
+Se quita directorio imagenes y se deja en directorio raiz
