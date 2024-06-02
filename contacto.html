@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería de Arte - Contacto</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" integrity="sha384-0svlQCPzmykT89GxEijveGGAjL9TUvIfkKjXqVrbON7EKWB7EAXqi+1IDAQzWfEM" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css"> </head>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
 <body>
 
 <header class="container-fluid bg-dark text-white py-3">
     <div class="row">
         <div class="col-md-6">
-            <h1>GALERIA DE ARTE</h1>
+            <h1>GALERÍA DE ARTE</h1>
         </div>
-        <div class="col-md-6 text-right">
-            <ul class="nav">
-                <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
-                <li class="nav-item"><a href="galeria.html" class="nav-link">Galería de Fotos</a></li>
-                <li class="nav-item"><a href="contacto.html" class="nav-link active">Contacto</a></li>
-            </ul>
+        <div class="col-md-6 text-end">
+            <nav>
+                <ul class="nav">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="galeria.html" class="nav-link">Galería de Fotos</a></li>
+                    <li class="nav-item"><a href="contacto.html" class="nav-link active">Contacto</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </header>
@@ -28,27 +32,27 @@
     <p>Para más información, contáctanos.</p>
     <div class="row">
         <div class="col-md-6">
-            <form action="enviar.php" method="POST">
-                <div class="form-group">
+            <form id="contactForm" action="enviar.php" method="POST">
+                <div class="form-group mb-3">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required aria-label="Nombre">
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-3">
                     <label for="email">Correo electrónico:</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <input type="email" class="form-control" id="email" name="email" required aria-label="Correo electrónico">
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-3">
                     <label for="tipo_solicitud">Tipo de solicitud:</label>
-                    <select class="form-control" id="tipo_solicitud" name="tipo_solicitud" required>
+                    <select class="form-control" id="tipo_solicitud" name="tipo_solicitud" required aria-label="Tipo de solicitud">
                         <option value="">Selecciona un tipo</option>
                         <option value="Compra">Compra</option>
                         <option value="Consulta">Consulta</option>
                         <option value="Venta">Venta</option>
                     </select>
                 </div>
-                <div class="form-group">
+                <div class="form-group mb-3">
                     <label for="mensaje">Mensaje:</label>
-                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required aria-label="Mensaje"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
@@ -66,7 +70,7 @@
 <footer class="container-fluid bg-dark text-white py-3 mt-5">
     <div class="row">
         <div class="col-md-12 text-center">
-            Galería de arte 2024 evaluación ciisa
+            Galería de arte 2024 evaluación CIISA
         </div>
     </div>
 </footer>
